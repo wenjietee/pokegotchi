@@ -2,7 +2,8 @@
 
 ## About:
 A Tamagotchi game based on Pokémon sprites.
-[Game Link] (https://wenjietee.github.io/pokegotchi/)
+
+Game Link: https://wenjietee.github.io/pokegotchi/
 
 ## Exceptions:
 An attempt at a simple tamagotchi game using pokemon sprites from the Pokémon API.
