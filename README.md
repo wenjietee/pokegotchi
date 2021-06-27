@@ -13,4 +13,4 @@ Some exceptions made are pokemon evolution levels labelled as age , i.e all poke
 - You can train your pet to level it up faster but at the expense of hunger and sleepiness.
 
 ## API Used:
-Pokémon API (PokéAPI) [https://pokeapi.co/]
+[Pokémon API (PokéAPI)] (https://pokeapi.co/)
