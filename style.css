@@ -1,0 +1,91 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+
+/* Main CSS */
+.flexbox {
+	display: flexbox;
+}
+body {
+	font-family: 'Karla', sans-serif;
+	background-color: tomato;
+	background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9938babd-3a6f-476d-81a9-fdfadc2bf5ff/d6zj43i-988ad0d0-32f4-4484-91e2-a6fafb38658d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOTkzOGJhYmQtM2E2Zi00NzZkLTgxYTktZmRmYWRjMmJmNWZmXC9kNnpqNDNpLTk4OGFkMGQwLTMyZjQtNDQ4NC05MWUyLWE2ZmFmYjM4NjU4ZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.eMuqpM5hlOtFFBUfoC2OVFaHqr5fcqqiZJ_x9VZ4CCc');
+	background-size: cover;
+}
+/* General */
+.flex {
+	text-align: center;
+}
+
+/* Profile & Stats CSS */
+.profile > li,
+.stats > li {
+	padding: 0.5em;
+	display: inline;
+	font-size: 2em;
+	color: white;
+	text-shadow: 2px 2px 5px #8a0383;
+}
+
+/* Pet CSS */
+#pet-image {
+	background-color: gray;
+	background-size: cover;
+	padding: 15em;
+	border-radius: 50px;
+	max-height: 400px;
+	margin: 0 auto;
+}
+.on {
+	background: linear-gradient(rgba(212, 212, 137, 0.5), rgba(0, 0, 0, 0.5)),
+		url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/627e91b1-1006-47bf-92b0-82f225867117/d9kpu7v-2a161877-7a14-4270-8f41-762b49d63512.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjI3ZTkxYjEtMTAwNi00N2JmLTkyYjAtODJmMjI1ODY3MTE3XC9kOWtwdTd2LTJhMTYxODc3LTdhMTQtNDI3MC04ZjQxLTc2MmI0OWQ2MzUxMi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.cJeziDdHBdOuIPSE7ig3SdD1L-Mx8gyAFsBmnKxmm04');
+}
+.off {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/627e91b1-1006-47bf-92b0-82f225867117/d9kpu7v-2a161877-7a14-4270-8f41-762b49d63512.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjI3ZTkxYjEtMTAwNi00N2JmLTkyYjAtODJmMjI1ODY3MTE3XC9kOWtwdTd2LTJhMTYxODc3LTdhMTQtNDI3MC04ZjQxLTc2MmI0OWQ2MzUxMi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.cJeziDdHBdOuIPSE7ig3SdD1L-Mx8gyAFsBmnKxmm04');
+}
+
+img {
+	height: 150px;
+}
+
+/* Actions CSS */
+button {
+	font-size: 1.5em;
+	font-family: 'Karla', sans-serif;
+	color: darkslategray;
+	background-color: white;
+	min-width: 15%;
+	margin: 0 3em 3em 0;
+	border-radius: 15px;
+	box-shadow: 2px 2px 10px #b424ad;
+	outline: none;
+}
+
+/* Modal CSS */
+.modal {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	/*This puts our modal in front of the body (which has a default z-index setting of `0`*/
+	overflow: auto;
+	/*If overflow is clipped, a scroll-bar should be added to see the rest of the content*/
+}
+
+#modal-content {
+	background-color: white;
+	height: 250px;
+	width: 550px;
+	padding: 1em;
+	border-radius: 15px;
+	margin: 150px auto;
+}
+
+.modal-list {
+	margin-right: 50px;
+	list-style-type: none;
+}
