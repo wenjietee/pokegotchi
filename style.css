@@ -45,7 +45,7 @@ body {
 }
 
 img {
-	height: 150px;
+	height: 250px;
 }
 
 /* Actions CSS */
@@ -89,3 +89,4 @@ button {
 	margin-right: 50px;
 	list-style-type: none;
 }
+
