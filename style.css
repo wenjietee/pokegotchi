@@ -8,7 +8,7 @@
 body {
 	font-family: 'Karla', sans-serif;
 	background-color: tomato;
-	background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9938babd-3a6f-476d-81a9-fdfadc2bf5ff/d6zj43i-988ad0d0-32f4-4484-91e2-a6fafb38658d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOTkzOGJhYmQtM2E2Zi00NzZkLTgxYTktZmRmYWRjMmJmNWZmXC9kNnpqNDNpLTk4OGFkMGQwLTMyZjQtNDQ4NC05MWUyLWE2ZmFmYjM4NjU4ZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.eMuqpM5hlOtFFBUfoC2OVFaHqr5fcqqiZJ_x9VZ4CCc');
+	background: url('./media/graph_paper_10x10_blue_by_basurero_dbf1grt-fullview.jpg');
 	background-size: cover;
 }
 /* General */
@@ -37,11 +37,11 @@ body {
 }
 .on {
 	background: linear-gradient(rgba(212, 212, 137, 0.5), rgba(0, 0, 0, 0.5)),
-		url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/627e91b1-1006-47bf-92b0-82f225867117/d9kpu7v-2a161877-7a14-4270-8f41-762b49d63512.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjI3ZTkxYjEtMTAwNi00N2JmLTkyYjAtODJmMjI1ODY3MTE3XC9kOWtwdTd2LTJhMTYxODc3LTdhMTQtNDI3MC04ZjQxLTc2MmI0OWQ2MzUxMi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.cJeziDdHBdOuIPSE7ig3SdD1L-Mx8gyAFsBmnKxmm04');
+		url('./media/_pokemon_frr__red_s_bedroom_v2_by_thewolfgalaxy_d9kpu7v-fullview.jpg');
 }
 .off {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/627e91b1-1006-47bf-92b0-82f225867117/d9kpu7v-2a161877-7a14-4270-8f41-762b49d63512.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjI3ZTkxYjEtMTAwNi00N2JmLTkyYjAtODJmMjI1ODY3MTE3XC9kOWtwdTd2LTJhMTYxODc3LTdhMTQtNDI3MC04ZjQxLTc2MmI0OWQ2MzUxMi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.cJeziDdHBdOuIPSE7ig3SdD1L-Mx8gyAFsBmnKxmm04');
+		url('./media/_pokemon_frr__red_s_bedroom_v2_by_thewolfgalaxy_d9kpu7v-fullview.jpg');
 }
 
 img {
